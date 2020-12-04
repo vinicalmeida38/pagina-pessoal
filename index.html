@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vinícius Almeida</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__title"> <a href="index.html">Vinícius Almeida</a></h1>
+    <nav class="header__menu">
+      <ul>
+        <li><a href="#personal-data">Dados pessoais</a></li>
+        <li><a href="#professional-data">Dados profissionais</a></li>
+        <li><a href="#education">Escolaridade</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="personal-data" id="personal-data">
+    <h2>Dados pessoais</h2>
+    <img class="personal-data__img" src="images/eu.JPG" alt="Imagem de Vinícius" />
+    <ul class="personal-data__content">
+      <li>
+        <h3>Vinícius Almeida</h3>
+      </li>
+      <li>21 anos</li>
+      <li>Campinas, SP</li>
+      <li>
+        <a href="mailto:vinicalmeida38@gmail.com" target="_blank">vinicalmeida38@gmail.com</a>
+      </li>
+    </ul>
+    <hr />
+  </section>
+  <section id="professional-data">
+    <h2>Dados profissionais</h2>
+    <div>
+      <ul>
+        <li>
+          <h3>Trabalho atual</h3>
+        </li>
+        <li>
+          <a href="https://www.thomsonreuters.com.br/pt.html" target="_blank">Thomson Reuters</a>
+        </li>
+        <li>
+          <h3>Cargo</h3>
+        </li>
+        <li>
+          Estagiário - Frontend Developer
+        </li>
+        <li>
+          <h3>Redes</h3>
+        </li>
+        <li><a href="https://github.com/vinicalmeida38">Git</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/vinicius-c-almeida/" target="_blank">Linkedin</a>
+        </li>
+      </ul>
+    </div>
+    <hr />
+  </section>
+  <section id="education">
+    <h2>Escolaridade</h2>
+    <ul>
+      <li>
+        <h3>Ensino Médio</h3>
+      </li>
+      <li>
+        <a href="https://www.objetivo.br/" target="_blank">Objetivo</a>
+      </li>
+      <li>
+        <h3>Faculdade</h3>
+      </li>
+      <li>
+        <a href="https://portal.cmp.ifsp.edu.br/" target="_blank">Instituto Federal de São Paulo</a>
+      </li>
+    </ul>
+    <hr>
+  </section>
+
+  <section id="contact">
+    <h2>Contato</h2>
+    <form class="contact-form" action="post">
+      <label class="contact-form__label" for="name">Nome</label>
+      <input type="text" name="name" id="name" placeholder="Digite seu nome"><br>
+      <label class="contact-form__label" for="phone">Fone</label>
+      <input type="text" name="phone" id="phone" placeholder="Digite seu celular ou telefone"><br>
+      <label class="contact-form__label" for="email">E-mail</label>
+      <input type="email" name="email" id="email" placeholder="Digite seu e-mail"><br>
+      <label class="contact-form__label" for="motive">Motivo do contato</label>
+      <select name="motive" id="motive">
+        <option value="default" selected disabled>Selecione o motivo do contato</option>
+        <option value="consulting">Consultoria</option>
+        <option value="freelance">Freelance</option>
+        <option value="custom">Trabalho personalizado</option>
+      </select>
+      <button class="contact-form__btn" type="submit">Enviar</button>
+    </form>
+    <hr>
+  </section>
+  <section id="subjects">
+    <h2>Disciplinas</h2>
+    <ul>
+      <li>
+        Linguagem de Programação (C, C# e Java)
+      </li>
+      <li>
+        Banco de Dados
+      </li>
+      <li>
+        Desenvolvimento WEB
+      </li>
+      <li>
+        Arquitetura de Software
+      </li>
+      <li>
+        Qualidade de Software
+      </li>
+    </ul>
+  </section>
+  <footer class="footer">
+    <p class="footer__content">Aula Desenvolvimento WEB</p>
+  </footer>
+</body>
+
+</html>

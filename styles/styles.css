@@ -1,0 +1,144 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #d8d8d8;
+  color: #000000;
+  margin: 0;
+}
+
+section {
+  margin: 0 50px;
+}
+
+h2 {
+  text-align: right;
+  padding: 0 15px;
+  font-size: 58px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 50px;
+  margin: 8px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #363636;
+}
+
+a:hover {
+  color: #8c8c8c;
+  transition: color 0.4s;
+}
+
+li {
+  font-size: 28px;
+  list-style-type: none;
+}
+
+input,
+select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+  height: 100px;
+  color: #ffffff;
+}
+
+.header__title {
+  font-weight: 100;
+}
+
+.header__menu ul li {
+  display: inline;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 100;
+  padding: 0 15px;
+}
+
+.header__title,
+.header__menu {
+  margin: 20px;
+}
+
+.header__title a,
+.header__menu ul li a {
+  color: #ffffff;
+}
+
+.header__title a:hover,
+.header__menu ul li a:hover {
+  color: #8c8c8c;
+  transition: color 0.4s;
+}
+
+.personal-data__img {
+  display: inline-block;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.personal-data__content {
+  display: inline-block;
+  align-items: center;
+  text-align-last: left;
+  width: 420px;
+  position: relative;
+  bottom: 10px;
+  margin: 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.contact-form__label {
+  font-size: 28px;
+  float: right;
+}
+
+.contact-form__btn {
+  width: 50%;
+  background-color: #6cd980;
+  color: #000000;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form__btn:hover {
+  background-color: #509f5e;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #000000;
+  height: 100px;
+  margin-top: 80px;
+}
+
+.footer__content {
+  font-weight: 100;
+  margin: 0;
+  color: #ffffff;
+}
